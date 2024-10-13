@@ -127,8 +127,8 @@ function App() {
               <Slideshow />
             </div>
             <div className="md:w-1/2 md:pl-8">
-              <h1 className="text-5xl font-bold mb-4">Book smart.</h1>
-              <p className="text-xl mb-8">Track every book, share them with the world (or don't) and find new life-changing reads.</p>
+              <h1 className="text-5xl font-bold mb-4">Explore a New Story</h1>
+              <p className="text-xl mb-8">Reading can be fun, just Leaf it to us!</p>
 
               <button
                 className="bg-[#5fbf00] px-6 py-3 rounded-md text-lg font-semibold text-white hover:bg-[#4ea600] transition-transform transform active:scale-95"
