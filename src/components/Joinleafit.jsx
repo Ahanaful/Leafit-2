@@ -192,8 +192,13 @@ const JoinLeafit = ({ onDone }) => {
       {error && <p className="text-red-500 mt-4">{error}</p>}
 
       {/* Display recommendations if available */}
-      {recommendations.length > 0 && (
-        <BookRecommendations recommendations={recommendations} onClose={() => setRecommendations([])} />
+      {!loading && !error && recommendations.length > 0 && (
+        <BookRecommendations
+        recommendations={recommendations}
+        onClose={() => setRecommendations([])}  // Close the recommendations modal
+        onSignUp={() => console.log('Navigating to dashboard or sign-up')}
+      />
+      
       )}
     </div>
   );

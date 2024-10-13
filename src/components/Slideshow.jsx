@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const images = [
-  "https://via.placeholder.com/700x400.png?text=Image+1",
-  "https://via.placeholder.com/700x400.png?text=Image+2",
-  "https://via.placeholder.com/700x400.png?text=Image+3"
+  "https://media.discordapp.net/attachments/1293755238246907906/1295052041651093535/Screenshot_2024-10-13_at_10.53.38_AM.png?ex=670d3eb3&is=670bed33&hm=84b609421a3d58dab819364f79b98d1d2adac2797360626ff7ff0a60b761d2fd&=&width=1050&height=598",
+    "https://media.discordapp.net/attachments/1293755238246907906/1295067370452156498/Screenshot_2024-10-13_at_11.53.01_AM.png?ex=670d4cfa&is=670bfb7a&hm=3eb63bded528ca650e5041ccaab00e5b138a61ed6d98b1cd924f0865012d7dd5&=&format=webp&quality=lossless&width=1924&height=1080",
+  "https://media.discordapp.net/attachments/1293755238246907906/1295051132678307992/Screenshot_2024-10-13_at_10.45.21_AM.png?ex=670d3dda&is=670bec5a&hm=de1b99c22ac94941affb4c29425cec31748d2fd612f07270cf94749c5133ee63&=&width=1050&height=596"
 ];
 const delay = 2500;
 

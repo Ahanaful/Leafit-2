@@ -35,8 +35,9 @@ const SignUp = ({ onClose }) => {
   return (
     <div className="bg-gray-800 p-8 rounded-lg max-w-md w-full">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold text-white">Join Us Today</h2>
+        <h2 className="text-2xl font-bold text-white">Join us Today</h2>
       </div>
+      <p className="text-gray-400 mb-6">Sign up and enter a world of amazing books</p>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="email" className="block text-gray-300 mb-2">Email</label>
@@ -85,13 +86,10 @@ const SignUp = ({ onClose }) => {
         </div>
         <button
           type="submit"
-          className="mb-6 w-full bg-[#5fbf00] px-6 py-2 rounded-md text-white transition-transform transform hover:bg-[#4ea600] hover:scale-105"
+          className="w-full bg-[#5fbf00] px-6 py-2 rounded-md text-white transition-transform transform hover:bg-[#4ea600] hover:scale-105"
         >
-          Join LeafIt
+          Next
         </button>
-        <p className="text-gray-300 mb-6">Already have an account?{'\u00A0'}
-          <span className='hover:underline cursor-pointer'>Log In</span>
-        </p>
       </form>
     </div>
   );
